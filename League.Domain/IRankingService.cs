@@ -2,6 +2,6 @@
 
 public interface IRankingService
 {
-    /// Tri attendu: Points desc, DG desc, GF desc, Nom asc.
+    /// Expected sort: Points desc, GD desc, GF desc, Name asc.
     IEnumerable<Standing> BuildTable(IEnumerable<RawMatch> matches);
 }

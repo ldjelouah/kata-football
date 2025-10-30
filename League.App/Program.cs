@@ -12,7 +12,7 @@ var json = await File.ReadAllTextAsync(file);
 var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 var matches = JsonSerializer.Deserialize<List<RawMatch>>(json, options) ?? new();
 
-IRankingService service = new RankingService(); // Implémentée par le candidat
+IRankingService service = new RankingService(); // Implemented by the candidate
 
 var table = service.BuildTable(matches).ToList();
 
