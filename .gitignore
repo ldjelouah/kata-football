@@ -1,0 +1,50 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Tests
+TestResult*/
+[Bb]uild[Ll]og.*
+
+# Packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.package.config
+*.vsix
+*.dll
+*.exe
+
+# Cache & backup
+*.pdb
+*.tmp
+*.bak
+*.swp
+*.cache
+*.db
+*.db-shm
+*.db-wal
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Others
+.env
+appsettings.Development.json
